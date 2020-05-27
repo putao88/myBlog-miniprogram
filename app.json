@@ -1,0 +1,40 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/message/index",
+    "pages/whisper/index",
+    "pages/about/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "My Blog",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#3f2863",
+    "selectedColor": "#ff7f21",
+    "position": "top",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "文章"
+    }, {
+      "pagePath": "pages/message/index",
+      "text": "留言"
+    }, {
+        "pagePath": "pages/whisper/index",
+        "text": "微语"
+      }, {
+        "pagePath": "pages/about/index",
+        "text": "关于"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "style": "v2",
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
