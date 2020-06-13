@@ -1,6 +1,69 @@
 <!--logs.wxml-->
 <view class="container log-list">
-  <block wx:for="{{logs}}" wx:for-item="log">
-    <text class="log-item">{{index + 1}}. {{log}}</text>
-  </block>
+    <view class="about-content">
+        <view class="w1000">
+            <view class="item info">
+                <view class="title">
+                    <view class='h3'>我的介绍</view>
+                </view>
+                <view class="cont">
+                    <image class="about-img" src="./image/xc_img1.jpg" />
+                    <view class="per-info">
+                        <view>葡萄</view>
+                        <view>24岁</view>
+                        <view>前端工程师</view>
+                        <view>爱好旅游,打游戏</view>
+                    </view>
+                </view>
+                <!-- 我的技能 -->
+                <view class="item tool">
+                    <view class="title">我的技能</view>
+                    <view class="layui-fluid">
+                        <view class="layui-row">
+                            <view class="layui-col-xs6">
+                                <view class="cont-box">
+                                    <image src="./image/gr_img2.jpg" />
+                                    <view class="p">80%</view>
+                                </view>
+                            </view>
+                            <view class="layui-col-xs6">
+                                <view class="cont-box">
+                                    <image src="./image/gr_img3.jpg" />
+                                    <view class="p">80%</view>
+                                </view>
+                            </view>
+                            <view class="layui-col-xs6">
+                                <view class="cont-box">
+                                    <image src="./image/gr_img4.jpg" />
+                                    <view class="p">80%</view>
+                                </view>
+                            </view>
+                            <view class="layui-col-xs6">
+                                <view class="cont-box">
+                                    <image src="./image/gr_img5.jpg" />
+                                    <view class="p">80%</view>
+                                </view>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+
+                <!-- 联系方式 -->
+                <view class="item contact">
+                    <view class="title">
+                        <view class="h3">联系方式</view>
+                    </view>
+                    <view class="cont">
+                        <image src='./image/erweima.jpg' />
+                        <view class="text">
+                            <view class="WeChat">微信：<span>1234567890</span></view>
+                            <view class="qq">qq：<span>1234567890</span></view>
+                            <view class="iphone">电话：<span>1234567890</span></view>
+
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
 </view>

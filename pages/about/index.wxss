@@ -1,8 +1,82 @@
-.log-list {
-  display: flex;
-  flex-direction: column;
-  padding: 40rpx;
+.layui-row:after, .layui-row:before {
+    content: '';
+    display: block;
+    clear: both;
 }
-.log-item {
-  margin: 10rpx;
+.about-content {
+    background: #faf8fb;
+}
+.w1000 {
+    max-width: 1000px!important;
+    margin: 0 auto;
+}
+.about-content .item {
+    padding-bottom: 40px;
+}
+.about-content .item .per-info {
+    padding-left: 20px;
+}
+.about-content .item .per-info view {
+    font-size: 16px;
+    line-height: 50px;
+}
+.about-content .item.info .cont {
+    overflow: hidden;
+}
+.about-content .item.info img {
+    margin-right: 0;
+    float: none;
+    height: auto;
+    width: 100%;
+}
+.about-content .item.info .h3 {
+    padding-left: 20px;
+    font-size: 24px;
+    color: #3f2863;
+    line-height: 100px;
+}
+
+.about-img {
+    width: 100%;
+    height: 200px;
+}
+.tool .title {
+    padding-left: 20px;
+    font-size: 24px;
+    color: #3f2863;
+    line-height: 100px;
+}
+
+.layui-fluid {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.layui-col-xs6 {
+    width: 50%;
+    float: left;
+}
+.item.tool .cont-box {
+    text-align: center;
+}
+.item.tool .cont-box image{
+    width: 86px;
+    height: 86px;
+}
+.item.tool .cont-box .p {
+    line-height: 56px;
+}
+
+/* 联系方式 */
+.about-content .item.contact .cont {
+    overflow: hidden;
+}
+.about-content .item.contact .cont image {
+    width: 110px;
+    height: 110px;
+    margin: 0 30px 0 20px;
+    float: left;
+}
+.about-content .item.contact .cont .text {
+    line-height: 36px;
 }

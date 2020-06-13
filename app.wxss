@@ -1,10 +1,6 @@
 /**app.wxss**/
 .container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 200rpx 0;
-  box-sizing: border-box;
+    font: 14px 宋体 Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+    overflow-x: hidden;
+    height: 100%;
 } 
